@@ -6,34 +6,39 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
 
     <div class="vignette-overlay"></div>
+
     <nav class="nav-wrapper">
-        <div class="logo-wrapper">
-            <img src="./logo.png" class="logo" alt="Logo" >
-        </div>
-        <div class="match">
-            <span class="round">VII. Liga - 25. kolo </span>
-            <span class="time">17.5.2026, 17:00</span>
-            <span class="teams">Spišské Tomášovce : Lieskovany</span>
-        </div>
         <div class="menu-wrapper">
-            <a href="https://www.facebook.com/p/OFK-Slovenský-raj-Spišské-Tomášovce-100054599523693/" class="menu" data-text="Facebook">Facebook</a>
-            <a href="#" class="menu" data-text="Kontakt">Kontakt</a>
+            <a href="" class="menu facebook">Facebook</a>
+            <div class="links-divider"></div>
+            <a href="" class="menu kontakt">Kontakt</a>
+        </div>
+        
+        <div class="logo-wrapper">
+            <img src="./logo.png" class="logo" alt="Logo">
         </div>
     </nav>
     
     <section class="main-page">
         <div class="title-wrapper">
-            <div class="main-title">OFK SLOVENSKÝ RAJ<br /> SPIŠSKÉ TOMÁŠOVCE</div>
+            <h1 class="main-title">SLOVENSKÝ RAJ SPIŠSKÉ TOMÁŠOVCE</h1>
+            <h2>OBECNÝ FUTBALOVÝ KLUB</h2>
         </div>
         <div class="image-wrapper">
             <img src="timovafotka.jpg" alt="Tímová fotka" class="main-image">
         </div>
+
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="arrow"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M169.4 502.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 402.7 224 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 370.7-105.4-105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg> -->
+        <svg viewBox="0 0 100 100" class="arrow">
+  <path class="line" d="M35,45 L50,60 L65,45" fill="none" stroke="black" stroke-width="1" />
+  <line class="line" x1="50" y1="20" x2="50" y2="60" fill="none" stroke="black" stroke-width="1" />
+</svg>
     </section>
 
     <section class="info">
@@ -220,6 +225,8 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/ScrollTrigger.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/SplitText.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/DrawSVGPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/MorphSVGPlugin.min.js"></script>
     <script src="./script.js"></script>
 </body>
 </html>
